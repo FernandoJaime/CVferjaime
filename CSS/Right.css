@@ -1,0 +1,88 @@
+.container .right {
+    position: relative;
+    background: rgb(209, 207, 207);
+    padding: 40px
+}
+
+/* breve descripción */
+.descripcion {
+    margin-top: 45px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2.5px solid rgb(153, 150, 150); /* Barra separadora */
+}
+.descripcion p {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+/* estudios */
+.educacion {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+    border-bottom: 2.5px solid rgb(153, 150, 150); /* Barra separadora */
+}
+.educacion h3 {
+    margin-bottom: -8px;
+    font-size: 1.3em;
+}
+.titulos h4 {
+    font-weight: 500;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: space-between;
+}
+.titulos span {
+    text-align: right;
+    font-size: 0.8em;
+    color: rgb(55, 55, 56);
+}
+.titulos p {
+    color: rgb(55, 55, 56);
+    margin-left: 2px;
+    margin-top: -18px;
+    font-size: 0.8em;
+}
+#año {
+    margin-top: 15px;
+    margin-bottom: -8px;
+}
+
+/* habilidades */
+.habilidades {
+    position: relative;
+    flex-direction: column;
+    align-items: right;
+    margin-top: 10px;
+}
+.habilidades h3 {
+    margin-bottom: 15px;
+    font-size: 1.3em; 
+}
+.habilidades .percent .text {
+    font-weight: 500;
+    font-size: 1em;
+}
+.habilidades .percent .percent2 {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: rgb(153, 150, 150);
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.habilidades .percent .percent2 div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(2, 122, 8);
+}

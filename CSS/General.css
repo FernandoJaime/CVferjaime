@@ -1,0 +1,26 @@
+/* fondo */
+body {
+    background: rgb(153, 150, 150); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* division, efecto */
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: rgb(243, 239, 239); 
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+/* Tipografía */
+* {
+    font-family: 'Roboto', sans-serif;
+}
