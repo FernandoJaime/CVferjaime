@@ -1,7 +1,7 @@
 .container .left {
     position: relative;
     background: transparent;
-    padding: 40px
+    padding: 40px;
 }
 
 /* imagen, nombre, ubicación */
@@ -119,10 +119,11 @@
     position: relative;
     flex-direction: column;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 65px;
 }
 .button {
-    margin-left: 23px;
+    justify-content: center;
+    display: contents;
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
@@ -215,10 +216,10 @@
     font-weight: 400;
     font-size: 0.9em;
     margin-bottom: 15px;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 #mascorto {
-    margin-left: 25px;
+    margin-left: 30px;
 }
 #maslargo {
     margin-left: -5px;

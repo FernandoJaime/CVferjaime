@@ -25,22 +25,33 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Responsive celular */
-@media only screen and (max-width: 800px) {
-    body {
-      font-size: 12px;
+/* Responsive */
+@media (max-width: 1000px) {
+    .container {
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
     }
-    .button {
-        margin-right: 25px;
+    .boton {
+        display: flex;
+        justify-content: center;
+        margin-left: none;
     }
-    #info #maslargo {
-        margin-left: 5px;
+    #info {
+        display: flex;
+        justify-content: center;
     }
-    body .titulos h4 {
-        font-size: 10px;
+}
+@media (max-width: 660px) {
+    .titulos h4 {
+        flex-direction: column;
     }
-    body .titulos p {
-        font-size: 8px;
-        margin-top: -12px;
+    .titulos span {
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+}
+@media (max-width: 360px) {
+    #info {
+        font-size: 0.7em;
     }
 }
