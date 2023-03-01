@@ -1,6 +1,6 @@
 .container .right {
     position: relative;
-    background: rgb(209, 207, 207);
+    background: rgb(172, 170, 170); 
     padding: 40px;
 }
 
@@ -12,7 +12,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-bottom: 2.5px solid rgb(153, 150, 150); /* Barra separadora */
+    border-bottom: 2.5px solid rgb(131, 127, 127); /* Barra separadora */
 }
 .descripcion p {
     font-size: 0.9em;
@@ -27,7 +27,7 @@
     flex-direction: column;
     align-items: right;
     justify-content: center;
-    border-bottom: 2.5px solid rgb(153, 150, 150); /* Barra separadora */
+    border-bottom: 2.5px solid rgb(131, 127, 127); /* Barra separadora */
 }
 .educacion h3 {
     margin-bottom: -8px;
@@ -74,7 +74,7 @@
     position: relative;
     width: 100%;
     height: 6px;
-    background: rgb(153, 150, 150);
+    background: rgb(131, 127, 127);
     display: block;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -84,5 +84,5 @@
     top: 0;
     left: 0;
     height: 100%;
-    background: rgb(2, 122, 8);
+    background: rgba(33,143,13,1);
 }

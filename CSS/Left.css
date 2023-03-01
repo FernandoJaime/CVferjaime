@@ -1,6 +1,6 @@
 .container .left {
     position: relative;
-    background: transparent;
+    background: rgb(194, 191, 191);
     padding: 40px;
 }
 
@@ -11,7 +11,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-bottom: 2.5px solid rgb(153, 150, 150); /* Barra separadora */
+    border-bottom: 2.5px solid rgb(131, 127, 127); /* Barra separadora */
 }
 .perfil .imagen {
     position: relative;
@@ -46,7 +46,7 @@
     flex-direction: column;
     align-items: right;
     margin-top: 8px;
-    border-bottom: 2.5px solid rgb(153, 150, 150); /* Barra separadora */
+    border-bottom: 2.5px solid rgb(131, 127, 127); /* Barra separadora */
 }
 .contacto h3 {
     margin-bottom: 10px;
@@ -56,7 +56,7 @@
     font-weight: 500;
     margin-top: -12px;
     font-size: 0.6em;
-    color: rgb(119, 121, 122);
+    color: rgb(131, 127, 127);
 }
 .contacto .iconos {
     margin-bottom: 20px;
@@ -86,7 +86,7 @@
     flex-direction: column;
     align-items: right;
     margin-top: 8px;
-    border-bottom: 2.5px solid rgb(153, 150, 150); /* Barra separadora */
+    border-bottom: 2.5px solid rgb(131, 127, 127); /* Barra separadora */
 }
 .idiomas h3 {
     margin-bottom: 15px;
@@ -100,7 +100,7 @@
     position: relative;
     width: 100%;
     height: 6px;
-    background: rgb(153, 150, 150);
+    background: rgb(131, 127, 127);
     display: block;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -110,7 +110,7 @@
     top: 0;
     left: 0;
     height: 100%;
-    background: rgb(2, 122, 8);
+    background: rgba(33,143,13,1);
 }
 
 /* botón con información */
@@ -198,7 +198,7 @@
     bottom: -1px;
     left: -8px;
     width: 0;
-    background-color: rgb(2, 122, 8);
+    background-color: rgba(33,143,13,1);
     transform: skew(-15deg);
     transition: all .2s ease;
 }

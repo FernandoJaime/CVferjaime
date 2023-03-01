@@ -1,6 +1,8 @@
 /* fondo */
 body {
-    background: rgb(153, 150, 150); 
+    /* background: rgb(153, 150, 150); */
+    background: rgb(61, 60, 60);
+    background: radial-gradient(circle, rgb(61, 60, 60) 83%, rgba(33,143,13,1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
