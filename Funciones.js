@@ -1,7 +1,8 @@
 /* Funcion que al presionar uno de los iconos te redirecciona a su link correspondiente */
 function redirectToLink(event) {
     const link = event.currentTarget.getAttribute('href');
-    window.location.href = link;
+    window.open(link, '_blank');
+    /*window.location.href = link;*/
   }
   const icons = document.querySelectorAll('.iconos i');
   icons.forEach(icon => icon.addEventListener('click', redirectToLink));
